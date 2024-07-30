@@ -1,0 +1,38 @@
+body {
+    background-color: #FEFAEF !important;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: #FEFAEF !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-image {
+    display: flex;
+    justify-content: center;
+}
+
+.main-sidebar {
+    height: 550px;
+    width: 185px !important;
+
+}
+
+.main-content {
+    height: 550px;
+    width: 600px !important;
+}
+
+.quiz-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-cart h4 {
+    text-align: center;
+}
