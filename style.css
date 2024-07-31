@@ -16,14 +16,29 @@ body {
 }
 
 .main-sidebar {
+    background-color: #27355C;
     height: 550px;
     width: 185px !important;
 
 }
 
 .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7F7;
     height: 550px;
     width: 600px !important;
+}
+
+#start-button {
+    background-color: #FF4E0E;
+    color: white;
+}
+
+#question-text {
+    min-height: 115px;
 }
 
 .quiz-cart {
@@ -38,6 +53,7 @@ body {
 }
 
 .quiz-button {
+    background-color: #FFFFFF;
     min-width: 250px;
     height: 48px;
 }
@@ -54,4 +70,57 @@ body {
 .bg-success span, .bg-danger span {
     color: white;
     font-weight: 600;
+}
+
+.end-screen-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.end-screen-content img {
+    height: 125px;
+    width: 125px;
+}
+
+.end-screen-content button {
+    height: 40px;
+    width: 200px;
+}
+
+#result-score {
+    font-size: large;
+}
+
+.progress {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    #main-content {
+        padding: 0 !important;
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #main-content {
+        max-width: 350px;
+    }
+
+    #main-sidebar {
+        max-width: 125px;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    #main-content {
+        max-width: 300px;
+    }
+    
+    #main-sidebar {
+        display: none;
+    }
 }
