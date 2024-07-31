@@ -36,3 +36,22 @@ body {
 .quiz-cart h4 {
     text-align: center;
 }
+
+.quiz-button {
+    min-width: 250px;
+    height: 48px;
+}
+
+.quiz-button span {
+    font-weight: 600;
+}
+
+.question-footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    padding-top: 10px;    
+}
+
+.bg-success span, .bg-danger span {
+    color: white;
+    font-weight: 600;
+}
